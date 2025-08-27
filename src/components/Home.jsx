@@ -36,7 +36,7 @@ export default function Home() {
                                     <div className='flex items-center justify-center gap-2 mt-6'>
                                         <motion.h1 initial={{ opacity: 0, x: -100 }}
                                             whileInView={{ opacity: 1, x: 0 }}
-                                            href="#contact"
+                                            href="#inTouch"
                                             className='px-6 py-2 bg-[#fff] text-[#000] border-2 border-[#fff] font-semibold rounded-4xl hover:scale-[1.05] transition-all duration-300 cursor-pointer'>
                                             Get In Touch
                                         </motion.h1>
