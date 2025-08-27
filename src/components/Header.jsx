@@ -141,7 +141,7 @@ export default function Header() {
                 </div>
             </motion.div>
 
-            <div className={`fixed w-full h-[100vh] z-50 sm:hidden ${mediaNav ? "right-0" : "right-[1000px]"} transition-all`}>
+            <div className={`fixed w-full h-[100vh] z-50 sm:hidden block ${mediaNav ? "right-0" : "right-[1000px]"} transition-all`}>
                 <div onClick={() => setMediaNav(false)} className='absolute top-0 left-0 w-full h-[100%] bg-[#0000006e] -z-10'></div>
                 <div className='h-full bg-[#fff] text-[#000] max-w-[300px] p-4'>
                     <h1 className='text-2xl font-semibold'>Divyansh Prajapat</h1>
