@@ -34,12 +34,12 @@ export default function Home() {
                                     <motion.p initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }} className='text-[#d0cece] mt-1'>I build modern, responsive, and scalable web applications using the MERN stack. With expertise in frontend and backend, I focus on seamless user experiences, API integration, and clean, maintainable code.</motion.p>
                                     <div className='flex items-center justify-center gap-2 mt-6'>
-                                        <motion.h1 initial={{ opacity: 0, x: -100 }}
+                                        <motion.a initial={{ opacity: 0, x: -100 }}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             href="#inTouch"
                                             className='px-6 py-2 bg-[#fff] text-[#000] border-2 border-[#fff] font-semibold rounded-4xl hover:scale-[1.05] transition-all duration-300 cursor-pointer'>
                                             Get In Touch
-                                        </motion.h1>
+                                        </motion.a>
                                          <a href="/images/Divyansh_Resume.jpg" download>
                                             <motion.button initial={{ opacity: 0, x: 100 }}
                                                 whileInView={{ opacity: 1, x: 0 }}
