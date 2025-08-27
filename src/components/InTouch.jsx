@@ -26,7 +26,7 @@ export default function InTouch() {
                         iI craft modern web apps with the  <span className='text-[#22d06a]'> MERN Stake </span> <br /> get in touch today.
                     </motion.p>
                     {/* <img src="/images/MERN.png" className='hidden' alt="" /> */}
-                    <motion.div initial={{ opacity: 0,y: 50 }}
+                    <motion.div initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         className='text-[#bfbfbf] mt-3 text-center sm:max-w-[700px] max-w-[100%]'>
                         <ul className='grid sm:grid-cols-3 grid-cols-1 items-center gap-3'>
@@ -36,7 +36,7 @@ export default function InTouch() {
                             <a href="https://www.linkedin.com/in/divyansh-prajapat-b78055296/" target='_blank'>
                                 <button className='w-full bg-[#fff] text-[#000] text-[17px] font-semibold py-2 px-4 rounded-[10px] flex items-center gap-1 cursor-pointer'><FaLinkedin className='text-[24px]' /> LinkedIn</button>
                             </a>
-                            <a href="/images/MERN.png" download>
+                            <a href="/images/Divyansh_Resume.jpg" download>
                                 <button className='w-full bg-[#fff] text-[#000] text-[17px] font-semibold py-2 px-4 rounded-[10px] flex items-center gap-1 cursor-pointer'><FaFileAlt className='text-[24px]' /> Resume</button>
                             </a>
                         </ul>
