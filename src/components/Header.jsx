@@ -101,7 +101,7 @@ export default function Header() {
                                             <span className='relative z-10'>{item.name}</span>
 
                                             {/* Underline effect */}
-                                            <div className={`absolute bottom-0 right-0 transform -translate-x-1/2 h-0.5 transition-all duration-300 ${activeSection === item.name
+                                            <div className={`absolute bottom-0 left-0 transform -translate-x-1/2 h-0.5 transition-all duration-300 ${activeSection === item.name
                                                 ? 'w-full bg-gradient-to-r from-purple-400 to-pink-400'
                                                 : 'w-0 group-hover:w-full bg-gradient-to-r from-purple-400 to-pink-400'
                                                 }`}></div>
