@@ -41,7 +41,7 @@ export default function Home() {
                                             Get In Touch
                                         </motion.a>
                                          {/* <a href="/images/Divyansh_Resume.jpg" download> */}
-                                         <a href="/images//Divyansh-Prajapat-Resume.pdf" download>
+                                         <a href="/images/Divyansh-Prajapat-Resume.pdf" download>
                                             <motion.button initial={{ opacity: 0, x: 100 }}
                                                 whileInView={{ opacity: 1, x: 0 }}
                                                 className='px-6 py-2 bg-transparent text-[#fff] border-2 border-[#fff] font-semibold rounded-4xl hover:scale-[1.05] transition-all duration-300 cursor-pointer'>
