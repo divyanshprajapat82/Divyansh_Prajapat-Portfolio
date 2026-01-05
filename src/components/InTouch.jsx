@@ -36,7 +36,8 @@ export default function InTouch() {
                             <a href="https://www.linkedin.com/in/divyansh-prajapat-b78055296/" target='_blank'>
                                 <button className='w-full bg-[#fff] text-[#000] text-[17px] font-semibold py-2 px-4 rounded-[10px] flex items-center gap-1 cursor-pointer'><FaLinkedin className='text-[24px]' /> LinkedIn</button>
                             </a>
-                            <a href="/images/Divyansh_Resume.jpg" download>
+                            {/* <a href="/images/Divyansh_Resume.jpg" download> */}
+                            <a href="/images/Divyansh-Prajapat-Resume.pdf" download>
                                 <button className='w-full bg-[#fff] text-[#000] text-[17px] font-semibold py-2 px-4 rounded-[10px] flex items-center gap-1 cursor-pointer'><FaFileAlt className='text-[24px]' /> Resume</button>
                             </a>
                         </ul>
